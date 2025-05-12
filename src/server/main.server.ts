@@ -1,3 +1,8 @@
-import { makeHello } from "shared/module";
+import { CollectionService } from "@rbxts/services";
 
-print(makeHello("main.server.ts"));
+for (const obj of CollectionService.GetTagged("InvisWall")) {
+	if (obj.IsA("BasePart")) {
+		obj.Transparency = 1;
+		obj.Locked = true;
+	}
+}

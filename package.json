@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@rbxts/bezier": "^0.2.0",
-    "@rbxts/easy-path": "^1.0.7"
+    "@rbxts/easy-path": "^1.0.7",
+    "@rbxts/roact": "^3.0.1"
   }
 }
