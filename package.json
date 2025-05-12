@@ -1,0 +1,24 @@
+{
+  "name": "ahh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.852",
+    "prettier": "^3.5.3",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@rbxts/bezier": "^0.2.0",
+    "@rbxts/easy-path": "^1.0.7"
+  }
+}
